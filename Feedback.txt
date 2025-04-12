@@ -1,0 +1,65 @@
+Task Manager - Documentation
+
+Project Overview:
+This is a Python-based task manager that helps users manage their daily tasks. It includes features like adding, editing, deleting, reminders, recurring tasks, and more. It also allows multiple users to manage their own tasks.
+
+Features:
+
+Add, update, and delete tasks
+
+Set due dates and get reminders
+
+Create recurring tasks
+
+Search and sort tasks
+
+Multi-user login and support
+
+Assign tasks to other users
+
+View task statistics (completed, pending)
+
+Change appearance with basic themes
+
+Configure settings (like sorting and themes)
+
+Backup and restore tasks
+
+Download tasks to a file
+
+Handles errors clearly and safely
+
+Requirements:
+
+Python 3.10 or above
+
+Uses only built-in Python modules (datetime, json, os)
+
+File Structure:
+
+app.py (main file to run the application)
+
+tasks.json (used to store task data)
+
+settings.json (stores user preferences)
+
+README.txt (this documentation file)
+
+How to Run:
+
+Make sure Python is installed
+
+Open a terminal or command prompt
+
+Navigate to the folder
+
+Run: python app.py
+
+Future Improvements:
+
+Web version with a user interface
+
+Add calendar and notification integration
+
+Sync with cloud or mobile
+
